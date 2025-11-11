@@ -137,5 +137,5 @@ def mostrarPlantilla(img, imgTemplate, escala=0.25, margen=20, desplazamiento_y=
     y_offset = img.shape[0] - nuevo_alto - margen + desplazamiento_y
 
     roi = img[y_offset:y_offset+nuevo_alto, x_offset:x_offset+nuevo_ancho]
-    mezcla = cv2.addWeighted(roi, 0.8, template_resized, 0.5, 0)
+    mezcla = cv2.addWeighted(roi, 0.8, template_resized, 0.3, 0)
     img[y_offset:y_offset+nuevo_alto, x_offset:x_offset+nuevo_ancho] = mezcla

@@ -66,7 +66,7 @@ def crearPiezasIniciales():
         # Triángulo mediano
         crear_pieza([(200+offsetIni, 100+offsetIni), (200+offsetIni, 200+offsetIni), (100+offsetIni, 200+offsetIni)], (255, 0, 0), "Triángulo mediano"),
         # Triángulo pequeño 1
-        crear_pieza([(200+offsetIni, 0+offsetIni), (200+offsetIni, 100+offsetIni), (150+offsetIni, 50+offsetIni)], (0, 255, 255), "Triángulo pequeño 1"),
+        crear_pieza([(200+offsetIni, 0+offsetIni), (200+offsetIni, 100+offsetIni), (150+offsetIni, 50+offsetIni)], (221, 156, 0), "Triángulo pequeño 1"),
         # Triángulo pequeño 2
         crear_pieza([(100+offsetIni, 100+offsetIni), (150+offsetIni, 150+offsetIni), (50+offsetIni, 150+offsetIni)], (255, 0, 255), "Triángulo pequeño 2"),
         # Cuadrado
